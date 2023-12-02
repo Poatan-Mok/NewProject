@@ -79,13 +79,18 @@ body{
 
 }
 .page-title{
-    color:rgb(215, 215, 255);
-    font-size:4rem;
+    font-size: 7rem;
+    word-spacing:20px;
+    background: url("https://i.giphy.com/26ufo4EIIEdB8tX3y.gif") no-repeat center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    color: #000;
+    -webkit-text-fill-color: rgb(215, 215, 255,0.85);
     font-family: 'GmarketSans';    
-    text-transform:uppercase;  
-    font-weight:800;
-    letter-spacing: 0.5px;  
-    margin-bottom:30px;
+    font-weight:700px;
+    margin-bottom:10px;
 }
 .button{
     font-size: 1.375rem;
