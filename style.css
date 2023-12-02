@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* 공통부분*/
+html{
+    font-size: 100%;
+}
+body{
+    line-height:1.7;
+}
+a{
+    text-decoration: none;
+    /*글씨 아래 선을 제거*/
+}
+img{
+    max-width:100%;
+}
+
+/*header*/
+.logo{
+    width:210px;
+    margin-top: 14px;
+    font-weight: 700;
+    font-family: 'Nanum Myeongjo', serif;    
+    color:rgb(215, 215, 255);
+}
+.main-nav{
+    font-family: 'GmarketSans';    
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+}
+.main-nav li{
+    margin-left:30px;
+}
+.main-nav a{
+    color:#ffffff;
+}
+.main-nav a:hover{
+    color:#0071e3;
+}
+.page-header{
+    font-weight:300;
+    display:flex;
+    justify-content:space-between;
+}
+.wrapper{
+    /*max-width:1100px; 사용방법 잘 모르겠음.*/
+    margin:0 auto;
+    padding:0 4%;
+}
+/*Home*/
+
+.home-content {
+    text-align:center;
+    margin-top: 10%;
+}
+.home-content p{
+    font-size: 1.125rem;
+    margin:10px 0 42px
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+.small-title1{
+    color:#ffffff;
+    font-family: 'GmarketSans';    
+    font-size:1.25rem;
+    font-weight:400;
+    letter-spacing:1px;
+    text-align: center;
+    margin-bottom:60px;
+
+}
+.page-title{
+    color:rgb(215, 215, 255);
+    font-size:4rem;
+    font-family: 'GmarketSans';    
+    text-transform:uppercase;  
+    font-weight:800;
+    letter-spacing: 0.5px;  
+    margin-bottom:30px;
+}
+.button{
+    font-size: 1.375rem;
+    font-weight:400;
+    background: rgb(215, 215, 255);
+    font-family: 'GmarketSans';    
+    color: rgb(0, 0, 0);
+    padding: 18px 32px;
+    border-radius: 5px;
+}
+.button:hover{
+    color: rgb(215, 215, 255);
+    background: rgb(0, 0, 0);
+}
+.button,.material-symbols-outlined{
+    vertical-align: middle;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
