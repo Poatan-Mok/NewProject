@@ -18,26 +18,25 @@ img{
 .logo{
     width:210px;
     margin-top: 14px;
-    font-weight: 700;
-    font-family: 'Nanum Myeongjo', serif;    
-    color:rgb(215, 215, 255);
+    font-weight: 300;
+    font-family: var(--font-1);    
+    color:#dddddd;
 }
 .main-nav{
-    font-family: 'GmarketSans';    
+    font-family: 'Inter', sans-serif;
     display: flex;
     font-size: 1.25rem;
-    text-transform: uppercase;
     margin-top: 34px;
     list-style: none;
-    letter-spacing: 1px;
-    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-weight: 300;
 
 }
 .main-nav li{
     margin-left:30px;
 }
 .main-nav a{
-    color:#ffffff;
+    color:#dddddd;
 }
 .main-nav a:hover{
     color:#0071e3;
@@ -64,12 +63,12 @@ img{
 }
 
 body{
-    background-color: #000000;
+    background-color: #191b20;
     font-family: 'Hedvig Letters Serif', serif;
 }
 
 .small-title1{
-    color:#ffffff;
+    color:#dddddd;
     font-family: 'GmarketSans';    
     font-size:1.25rem;
     font-weight:400;
@@ -79,31 +78,29 @@ body{
 
 }
 .page-title{
-    font-size: 7rem;
-    word-spacing:20px;
+    font-size: 6rem;
     background: url("https://i.giphy.com/26ufo4EIIEdB8tX3y.gif") no-repeat center;
     background-size: cover;
     -webkit-background-clip: text;
     -ms-background-clip: text;
     background-clip: text;
     color: #000;
-    -webkit-text-fill-color: rgb(215, 215, 255,0.85);
-    font-family: 'GmarketSans';    
-    font-weight:700px;
+    -webkit-text-fill-color: rgb(221, 221, 221,0.85);
+    font-family: 'Inter', sans-serif;
     margin-bottom:10px;
 }
 .button{
     font-size: 1.375rem;
     font-weight:400;
-    background: rgb(215, 215, 255);
+    background: rgb(221, 221, 221);
     font-family: 'GmarketSans';    
     color: rgb(0, 0, 0);
     padding: 18px 32px;
     border-radius: 5px;
 }
 .button:hover{
-    color: rgb(215, 215, 255);
-    background: rgb(0, 0, 0);
+    color: rgb(221, 221, 221);
+    background: #191b20;
 }
 .button,.material-symbols-outlined{
     vertical-align: middle;
